@@ -1,0 +1,83 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 50px;
+}
+
+/* Navbar styling */
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.navbar-toggle {
+  float: right;
+  margin-right: 10px;
+}
+
+.navbar-collapse {
+  background-color: #f8f8f8;
+}
+
+.navbar-nav > li > a {
+  color: #333;
+  padding: 15px 20px;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #ddd;
+}
+
+/* General heading styling */
+h1, h3 {
+  margin-bottom: 20px;
+}
+
+/* Section styling */
+.section {
+  height: 700px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.section h3 {
+  margin-top: 0;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section p {
+  margin-top: 50px;
+}
+
+.section a {
+  display: block;
+  margin-top: 20px;
+  color: #337ab7;
+  text-align: center;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (min-width: 992px) {
+  .navbar-nav {
+    display: none;
+  }
+
+  .section {
+    height: auto;
+  }
+}
